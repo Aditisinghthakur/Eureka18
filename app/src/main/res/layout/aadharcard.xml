@@ -26,21 +26,14 @@
 
     <EditText
         android:id="@+id/UniqueID_EditText"
-      android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawablePadding="12dp"
-        android:padding="8dp"
-        android:hint="Aadhar Number"
+        android:hint="Aadhar number"
         android:textColorHint="#000000"
-        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
 
 
       />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#000000" />
-
 
         <TextView
             android:id="@+id/UniqueID_MobileNO"
